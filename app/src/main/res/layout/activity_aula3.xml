@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".Aulas.Aula3">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculadora"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="60dp"
+        android:text="@string/insira_um_valor"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/valorx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="60dp"
+        android:text="@string/insira_outro_valor"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/valory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnSoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soma"
+        android:textColor="#FBC02D"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnMultiplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicacao"
+        android:textColor="#FBC02D"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnDivisao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divisao"
+        android:textColor="#FBC02D"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSubtracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtracao"
+        android:textColor="#FBC02D"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnRaiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/raiz"
+        android:textColor="#FBC02D"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="60dp"
+        android:text="@string/resultado"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="60dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:text="@string/res"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
