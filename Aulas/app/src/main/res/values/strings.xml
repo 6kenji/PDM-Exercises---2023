@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Aulas</string>
+    <string name="bemvindo">BemVindo</string>
+    <string name="button"> Cambiar </string>
+    <string name="insira_um_valor_para_cambiar">Insira um valor em metical para cambiar</string>
+    <string name="khalidy_safar_programs">Khalidy Safar Programs</string>
+    <string name="cambio">CAMBIO</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="soma">SOMA</string>
+    <string name="res">res</string>
+    <string name="subtracao">SUBTRACAO</string>
+    <string name="raiz">RAIZ</string>
+    <string name="divisao">DIVISAO</string>
+    <string name="calculadora">CALCULADORA</string>
+    <string name="resultado">Resultado:</string>
+    <string name="multiplicacao">MULTIPLICACAO</string>
+    <string name="insira_um_valor">Insira um valor:</string>
+    <string name="insira_outro_valor">Insira outro valor:</string>
+    <string name="moeda_que_deseja_converter_para">Moeda que deseja converter para:</string>
+    <string name="euro">EURO</string>
+    <string name="dollar">DOLLAR</string>
+    <string name="libra">LIBRA</string>
+    <string name="yen">YEN</string>
+    <string name="rand">RAND</string>
+    <string name="real">REAL</string>
+    <string name="imc">IMC</string>
+    <string name="calc_test">Activity LifeCycle</string>
+    <string name="see_my_lifecycle">SEE MY LIFECYCLE</string>
+    <string name="press_me">PRESS ME</string>
+    <string name="calculadora_button">CALCULADORA</string>
+    <string name="set_name">SET NAME</string>
+    <string name="textview"> Text: </string>
+    <string name="second_activity">SECOND ACTIVITY</string>
+    <string name="name">Name:</string>
+    <string name="bv">\"Bem vindo: \"</string>
+    <string name="nome">Nome:</string>
+    <string name="idade">Idade:</string>
+    <string name="intent_binding">INTENT BINDING</string>
+    <string name="test_layouts">TEST LAYOUTS</string>
+    <string name="idadeLabel">Idade:</string>
+    <string name="age">\", Sua idade eh: \"</string>
+    <string name="click_me">CLICK ME</string>
+    <string name="events">EVENTS</string>
+    <string name="title_activity_aula7_recycler_view">Aula7_RecyclerView</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
